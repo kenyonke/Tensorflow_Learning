@@ -1,2 +1,2 @@
 # Tensorflow_Learning
-A review for learning tensorflow with python 
+Machine Learning models and Deep Learning models implemented by Tensorflow. 
