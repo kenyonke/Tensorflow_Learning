@@ -71,7 +71,7 @@ class cgan:
                                    axis=3)
             
             
-            # 28*28*1 -> 14*14*128
+            # 28*28*11 -> 14*14*128
             h1 = tf.layers.conv2d(img_input, filters=128, kernel_size=3, 
                            strides=2, padding='same')
             h1 = tf.maximum(alpha*h1, h1)
